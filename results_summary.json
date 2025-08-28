@@ -1,0 +1,46 @@
+{
+  "5": {
+    "0": {
+      "baseline": {
+        "eval_metrics": {
+          "mAP50": 0.5326344087964,
+          "mAP50-95": 0.3933825732582472,
+          "precision": 0.6085166723842461,
+          "recall": 0.5289256713543745
+        },
+        "checkpoint": "models/5shot_seed0_baseline_best.pt"
+      },
+      "aug": {
+        "eval_metrics": {
+          "mAP50": 0.5628834018212391,
+          "mAP50-95": 0.42193185648179804,
+          "precision": 0.6640720477586739,
+          "recall": 0.5166314169534204
+        },
+        "checkpoint": "models/5shot_seed0_aug_best.pt"
+      }
+    }
+  },
+  "10": {
+    "0": {
+      "baseline": {
+        "eval_metrics": {
+          "mAP50": 0.6199475916748953,
+          "mAP50-95": 0.451994266775217,
+          "precision": 0.7154605451688816,
+          "recall": 0.5757475215625673
+        },
+        "checkpoint": "models/10shot_seed0_baseline_best.pt"
+      },
+      "aug": {
+        "eval_metrics": {
+          "mAP50": 0.6419534238829899,
+          "mAP50-95": 0.4770068700994213,
+          "precision": 0.7253498449502016,
+          "recall": 0.5915245786441091
+        },
+        "checkpoint": "models/10shot_seed0_aug_best.pt"
+      }
+    }
+  }
+}
